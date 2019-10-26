@@ -19,6 +19,10 @@ app.get("/earth", function(req, res){
     res.render("earth.html");
 });
 
+app.get("/mars", function(req, res){
+    res.render("mars.html");
+});
+
 app.get("/", function (req, res) {
     res.send("it works!");
 });
@@ -32,9 +36,9 @@ app.get("/", function (req, res) {
 // });
 
 // server listener
-//app.listen("8081", "0.0.0.0", function () {
+// app.listen("8081", "0.0.0.0", function () {
 //    console.log("Express Server is Running...")
-//});
+// });
 
 //heroku
 app.listen(process.env.PORT, process.env.IP, function () {

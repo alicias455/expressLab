@@ -9,6 +9,8 @@ body{
 
 #mercInfo{
     text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 #mercury_orbit{
@@ -33,7 +35,22 @@ body{
 }
 
 #venInfo{
-    padding: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#earInfo{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#marsBody{
+    background-color: antiquewhite;
+}
+
+#marsInfo{
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 nav a {
